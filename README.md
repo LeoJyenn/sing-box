@@ -114,4 +114,5 @@ Usage: sing-box [options]... [args]...
 ```
 安装命令如下：
 wget https://github.com/233boy/sing-box/archive/main.tar.gz -O sing-box-main.tar.gz;tar -zxvf sing-box-main.tar.gz;cd sing-box-main;chmod +x i*;./i* -l
+
 记得要把安装命令中的 233boy 更改成你的 Github 用户名
