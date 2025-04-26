@@ -112,7 +112,16 @@ Usage: sing-box [options]... [args]...
 反馈问题) https://github.com/233boy/sing-box/issues
 文档(doc) https://233boy.com/sing-box/sing-box-script/
 ```
-安装命令如下：
+安装
+系统支持：Ubuntu，Debian，CentOS，推荐使用 Ubuntu 22，谨慎使用 CentOS，脚本可能无法正常运行！
+bash <(wget -qO- -o- https://github.com/233boy/sing-box/raw/main/install.sh)
+如果需要指定 sing-box 版本，请在安装命令后面加 -v ver 参数
+
+如需查看安装命令帮助，在安装命令后面加 -h 即可
+
+
+
+Fork安装命令如下：
 wget https://github.com/233boy/sing-box/archive/main.tar.gz -O sing-box-main.tar.gz;tar -zxvf sing-box-main.tar.gz;cd sing-box-main;chmod +x i*;./i* -l
 
-记得要把安装命令中的 233boy 更改成你的 Github 用户名
+记得要把安装命令中的233boy更改成你的Github用户名
